@@ -1,0 +1,40 @@
+page{
+    background-color: #f3f4f6;
+}
+.collect_main{
+    background-color: #f3f4f6;
+}
+.collect_title{
+    padding: 40rpx 0;
+}
+.collect_tips{
+    padding: 15rpx;
+    border: 1rpx solid #ccc;
+    margin-left: 25rpx;
+}
+.active{
+    color: red;
+    border: 1rpx solid red;
+}
+
+.goods_item{
+    display: flex;
+    border-bottom: 2rpx solid #ccc;
+    background-color: #fff;
+}
+
+.goods_img_wrap{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goods_img_wrap image{
+    width: 70%;
+}
+.goods_info_wrap{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

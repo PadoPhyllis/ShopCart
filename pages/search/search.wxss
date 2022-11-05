@@ -1,0 +1,39 @@
+page{
+    background-color: #dedede;
+    padding: 20rpx;
+}
+.search_row{
+    height: 60rpx;
+    display: flex;
+}
+.search_row input{
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    padding-left: 30rpx;
+}
+.search_row button{
+    width: 110rpx!important;
+    padding: 0;
+    margin-left: 14rpx!important;
+    margin-right: 34rpx!important;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 26rpx;
+    color: gray;
+}
+
+.search_content{
+    margin-top: 30rpx;
+    width: 95.5%;
+}
+.search_item{
+    background-color: #fff;
+    font-size: 26rpx;
+    padding: 15rpx 10rpx;
+    border-bottom: 1rpx solid #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

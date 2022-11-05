@@ -1,0 +1,28 @@
+/* pages/home/home.wxss */
+.index_swiper swiper{
+    width: 750rpx;
+    height: 340rpx;
+}
+
+.index_cate{
+    display: flex;
+}
+.index_cate navigator{
+    flex: 1;
+    padding: 20rpx;
+}
+
+.floor_list navigator{
+    float: left;
+    width: 33.33%;
+    padding: 6rpx;
+    margin-top: 4rpx;
+    box-sizing: border-box;
+}
+.firstImage{
+    width: 100%;
+}
+.otherImage{
+    width: 100%;
+    height: 228rpx;
+}

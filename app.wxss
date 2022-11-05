@@ -1,0 +1,5 @@
+@import "./styles/iconfont.wxss";
+
+image{
+    width: 100%;
+}
